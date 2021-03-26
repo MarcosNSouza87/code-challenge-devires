@@ -25,8 +25,8 @@ export const Container = styled.div`
 
 export const Header = styled.header`
     display:flex;
-    background:#fff;
-    color:#2c2c2c;
+    background:#c2c2c2;
+    color:#fff;
     width:100%;
     align-items:center;
     padding:20px;
