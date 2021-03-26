@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
-import { Button } from 'styles/components/stylesPre';
+import { Button } from 'styles/components/ListToDo'
+import {RiDeleteBinLine} from 'react-icons/ri'
 
 interface PropsItemList{
     key:number
@@ -15,7 +16,7 @@ function ItemList(item:PropsItemList){
                 <strong>{item.title}</strong>
                 <p>{item.description}</p>
             </div>
-            <Button onClick={item.handleRemoveItem}>Remover</Button>
+            <Button onClick={item.handleRemoveItem}><RiDeleteBinLine size={24}/></Button>
         </li>
     )
 }
