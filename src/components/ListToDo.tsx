@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import { ContainerList, List } from 'styles/components/stylesPre'
+import { ContainerList, List } from 'styles/components/ListToDo'
 import ItemList from './ItemList'
 
 interface PropsItemList{
@@ -15,9 +15,9 @@ interface PropsListToDo{
 
 
 function ListToDo(props:PropsListToDo) {
+
     return(
         <ContainerList>
-            <label>Lista To do</label>
             <List>
                 {props.Lista.map(item=>(
                     <ItemList 
