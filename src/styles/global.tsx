@@ -10,11 +10,10 @@ export default createGlobalStyle`
     body{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size:1rem;
-        background:#3289e0;
+        //background:#3289e0;
     }
 
 `;
-
 
 export const Container = styled.div`
     height: 100%;
@@ -26,8 +25,8 @@ export const Container = styled.div`
 
 export const Header = styled.header`
     display:flex;
-    background:#2c2c2c;
-    color:#fff;
+    background:#fff;
+    color:#2c2c2c;
     width:100%;
     align-items:center;
     padding:20px;
@@ -41,7 +40,6 @@ export const Main = styled.main`
     width: 100%;
     align-items: center;
 `;
-
 
 export const Button = styled.button`
     background-color:#3289e0;
