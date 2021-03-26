@@ -16,7 +16,9 @@ function ItemList(item:PropsItemList){
                 <strong>{item.title}</strong>
                 <p>{item.description}</p>
             </div>
-            <Button onClick={item.handleRemoveItem}><RiDeleteBinLine size={24}/></Button>
+            <Button onClick={item.handleRemoveItem}>
+                <RiDeleteBinLine size={24}/>
+            </Button>
         </li>
     )
 }
