@@ -7,9 +7,7 @@ import { IoMdAdd } from 'react-icons/io';
 
 const FormTodo = () => {
   const [entity, setEntity] = useState<ITodo>({ id: 0, title: '', description: '' });
-
   const dispatch = useDispatch();
-
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     if (entity !== undefined) {
