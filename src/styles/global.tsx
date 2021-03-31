@@ -40,6 +40,7 @@ export const Main = styled.main`
   width: 100%;
   align-items: center;
 `;
+
 export const Button = styled.button`
   background-color: #3289e0;
   color: #fff;
